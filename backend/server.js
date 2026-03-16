@@ -56,17 +56,17 @@ app.get("/api/jogos/aleatorio", (req, res) => {
     res.json({
         status: "sucess",
 
-        message: `http://localhost:${PORT}/fotos/${item}` //alterar depois pelo IP da minha máquina (no senai)
+        message: `http://10.106.208.17:${PORT}/fotos/${item}` //alterar depois pelo IP da minha máquina (no senai)
 
     });
 });
 
 //======================================================
-app.get("api/jogos/:genero", (req, res) => {
+app.get("/api/jogos/:genero", (req, res) => {
 
     const genero = req.params.genero.toLowerCase();
 
-    if (!jogo[genero]){
+    if (!jogos[genero]){
         res.status(404).json({
             status: "error",
 
@@ -80,7 +80,7 @@ app.get("api/jogos/:genero", (req, res) => {
     res.json({
         status: "sucess",
 
-        message: `http://localhost:${PORT}/fotos/${item}` //alterar depois pelo IP da minha máquina (no senai)
+        message: `http://10.106.208.17:${PORT}/fotos/${item}` //alterar depois pelo IP da minha máquina (no senai)
     });
 });
 
@@ -88,7 +88,8 @@ app.get("api/jogos/:genero", (req, res) => {
 //#################################################
 //Inicia o servidor
 //#################################################
-app.listen(PORT, () => {
-    console.log(`Servidor ativo em http://localhost:${PORT}`); //alterar depois pelo IP da minha máquina (no senai)
+app.listen(PORT, "0.0.0.0", () => {
+
+    console.log(`Servidor ativo em http://10.106.208.17:${PORT}`); //alterar depois pelo IP da minha máquina (no senai)
     console.log(`Coloque as imagens manualmente em: data/fotos/`)
 })

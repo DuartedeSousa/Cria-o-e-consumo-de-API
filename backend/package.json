@@ -1,5 +1,5 @@
 {
-  "name": "dog-api",
+  "name": "jogos-api",
   "version": "1.0.0",
   "description": "API de Jogos",
   "main": "server.js",
