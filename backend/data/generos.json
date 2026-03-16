@@ -1,0 +1,8 @@
+{
+    "acao": ["acao/doom.jpg", "acao/farcry6.jpg", "acao/sekiro.jpg", "acao/uncharted.jpg"],
+    "terror": ["terror/alienisolation.jpg", "terror/deadspace.jpg", "terror/residentevil2.jpg", "terror/silenthill2.jpg"],
+    "survival": ["survival/minecraft.jpg", "survival/palworld.jpg", "survival/terraria.jpg", "survival/subnautica.jpg"],
+    "multiplayer": ["multiplayer/fortnite.jpg", "multiplayer/left4dead2.jpg", "multiplayer/marvelrivals.jpg", "multiplayer/overwatch.jpg"],
+    "indie": ["indie/celeste.jpg", "indie/hollowknight.jpg", "indie/stardewvalley.jpg", "indie/undertale.jpg"],
+    "rpg": ["rpg/bloodborne.jpg", "rpg/darksouls.jpg", "rpg/eldenring.jpg", "falloutnewvegas.jpg"]
+}
