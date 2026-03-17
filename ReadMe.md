@@ -122,3 +122,18 @@
 ➡️ Aqui será iniciado o servidor express, também enviando uma mensagem para o console.
 
 ================================================================
+## Frontend ##
+
+🟢 O frontend no projeto é a aparência dele que com o html sendo o esqueleto, o css que cria a aparência, podemos modificar a aparência do projeto para o jeito que quisemos e o javascript que permiti criar páginas da web interativas e dinâmicas. onde cada um funciona da seguinte forma:
+
+1. No HTML o <head> configura a página e conecta o CSS e o JavaScript (com defer, para rodar depois do carregamento). No <body>, os pontos mais importantes são os elementos com id, como a imagem (gamImage), o nome (breedName), o botão de jogo aleatório (randomBtn) e a busca (breedInput e searchBtn), pois são eles que o JavaScript usa para interagir com o usuário e atualizar o conteúdo dinamicamente.
+
+2. No JAVASCRIPT o getElementById pega os elementos que estão no HTML e o querySelector o usamos poque ele é uma classe. Fazemos o endereço base da nossa API local (const API = "http://10.106.208.17:3000/api/jogos"), temos função assíncrona que busca um jogo na API (async function buscarjogo(url),recebe uma URL como parâmetro), função que busca um jogo aleatório(function jogoAleatorio()), função que busca jogo por gênero(function buscarPorgenero()), addEventListener realiza um evento quando e feito uma ação, jogoAleatorio() assim que a página abre já busca um jogo aleatório.
+
+3. No CSS * seleciona TODOS os elementos da página usado normalmente para resetar estilos padrão do navegador, , enquanto o body se destaca por aplicar o fundo em degradê e usar Flexbox para centralizar todo o conteúdo. A .container funciona como o principal bloco da interface, com estilo de “card”, e a .gen-area organiza a exibição da imagem com centralização e suporte a elementos sobrepostos, como o nome exibido sobre a imagem. Além disso, .controls e .search utilizam Flexbox para alinhar botões e campo de entrada, enquanto os estilos de button e input garantem uma aparência uniforme. Por fim, a classe .loading melhora a experiência do usuário ao indicar quando há carregamento, bloqueando interações e exibindo uma mensagem na tela.
+
+================================================================
+
+## Créditos ##
+- H. Duarte de Sousa (Backend);
+- Arthur Marques Duarte Silve (Frontend).
