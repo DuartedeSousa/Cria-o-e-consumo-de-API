@@ -133,7 +133,24 @@
 3. No CSS * seleciona TODOS os elementos da página usado normalmente para resetar estilos padrão do navegador, , enquanto o body se destaca por aplicar o fundo em degradê e usar Flexbox para centralizar todo o conteúdo. A .container funciona como o principal bloco da interface, com estilo de “card”, e a .gen-area organiza a exibição da imagem com centralização e suporte a elementos sobrepostos, como o nome exibido sobre a imagem. Além disso, .controls e .search utilizam Flexbox para alinhar botões e campo de entrada, enquanto os estilos de button e input garantem uma aparência uniforme. Por fim, a classe .loading melhora a experiência do usuário ao indicar quando há carregamento, bloqueando interações e exibindo uma mensagem na tela.
 
 ================================================================
+## Como Acessar ##
 
+🟢 Como ativar o backend:
+
+➡️ No VS Code Studio da máquina que contêm o servidor utilize o comando (Ctrl + ') para acessar o local que os comendos devem ser executados, alterando o modo "powershell" para "command prompt" (presente no canto superior direito da aba). Após isso, use o seguinte comando para ativar o servidor: node server.js
+
+Assim o servidor estará ativo em: http://10.106.208.17:3000
+--------------------------------------------------------------
+
+🟢 Como ativar o frontend:
+
+➡️ Para ativar o frontend, abra o VS Code Studio na máquina que possuí o frontend e acesse o arquivo "index.html", em seguida clique na opção "Go Live" no canto inferior. Assim você será redirecionado para: http://127.0.0.1:5500/Consumo%20de%20API/frontend/index.html 
+
+O link acima funcionará apenas na máquina específica do frontend, mas para acessar de maneira pública, utilize o este link: https://m-arquesdev2608.github.io/Explorador_de_jogos/
+
+Ademais, permita a solicitação de buscar e se conectar a qualquer dispositivo na sua rede local para que a conexão entre backend e frontend ocorra devidamente. 
+
+================================================================
 ## Créditos ##
 - H. Duarte de Sousa (Backend);
 - Arthur Marques Duarte Silve (Frontend).
