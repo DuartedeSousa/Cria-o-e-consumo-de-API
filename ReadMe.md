@@ -146,9 +146,9 @@ Assim o servidor estará ativo em: http://10.106.208.17:3000
 
 ➡️ Para ativar o frontend, abra o VS Code Studio na máquina que possuí o frontend e acesse o arquivo "index.html", em seguida clique na opção "Go Live" no canto inferior. Assim você será redirecionado para o site hospedado localmente. 
 
-Porém só funcionará apenas na máquina específica do frontend, mas para acessar de maneira pública, utilize o este link: https://m-arquesdev2608.github.io/Explorador_de_jogos/
+Porém só funcionará apenas na máquina com o frontend, mas para acessar de maneira pública, utilize o este link: https://m-arquesdev2608.github.io/Explorador_de_jogos/
 
-Ademais, ligue o servidor e permita a solicitação "Buscar e se conectar a qualquer dispositivo na sua rede local" para que a conexão entre backend e frontend ocorra devidamente. 
+Ademais, ligue o servidor e permita a solicitação do navegador de "Buscar e se conectar a qualquer dispositivo na sua rede local" para que a conexão entre backend e frontend ocorra devidamente. 
 
 ================================================================
 ## Créditos ##
