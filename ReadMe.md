@@ -66,21 +66,21 @@
 
 🟢 Pastas e arquivos:
 --------------------------------------------------------------
-🗂️backend
-    📁data
-        📁fotos
-            📁acao
-            📁indie
-            📁multiplayer
-            📁rpg
-            📁survival
-            📁terror
-        🔑generos.json
-    📁node_modules
-    🟩package-lock.json
-    🟩package.json
-    🟨server.js
-ℹ️ReadMe.md
+🗂️backend;
+----📁data;
+------📁fotos;
+--------📁acao;
+--------📁indie;
+--------📁multiplayer;
+--------📁rpg;
+--------📁survival;
+--------📁terror;
+------🔑generos.json;
+----📁node_modules;
+----🟩package-lock.json;
+----🟩package.json;
+----🟨server.js;
+ℹ️ReadMe.md.
 --------------------------------------------------------------
 ➡️ Pasta data: possuí as pastas com gêneros (acao, indie, etc.), que por sua vez contêm as imagens, possuindo quatro cada gênero. Ademais o aquivo generos.json, que estrutura uma espécie de listagem dos arquivos dessas pastas de forma organizada, assim dando origem a API local;
 
