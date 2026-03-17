@@ -95,6 +95,7 @@
 🟢 Servidor (server.js):
 
 1. Requisições: O servidor cria variáveis constantes que recebem os requerimentos que foram necessários para a produção do mesmo:
+
 ➡️ express = recebe o requerimento express (adquirido com o npm install cors express);
 
 ➡️ cors = recebe o requerimento cors (adquirido com o npm install cors express);
@@ -106,6 +107,7 @@
 ➡️ jogos = recebe o requerimento do caminho até o arquivo JSON ("./data/generos.json").
 
 2. Outras variáveis:
+
 ➡️ app = recebe a função express();
 
 ➡️ PORT = recebe a porta desejada para a utilização do site enquanto "estiver no ar".
@@ -115,19 +117,24 @@
 --------------------------------------------------------------
 
 3. Arquivos estáticos:
+
 ➡️ Permite que tudo que estiver na pasta data/fotos pode ser acessado pela URL /fotos.
 --------------------------------------------------------------
 
 4. Função auxiliar:
+
 ➡️ Esta função receberá um array e retorna um item aleatório dele para o usuário.
 --------------------------------------------------------------
 
 5. Rotas:
+
 ➡️ 1° rota: Aqui há a coleta de todas as imagens, que são tranformadas em um único array e depois são sorteadas, para que a escolhida seja enviada para o cliente em formato JSON;
+
 ➡️ 2° rota: Há a coleta do url como parâmetro, que contêm o gênero que o usuário busca. Logo após, o servidor verifica se o gênero solicitado está presente no JSON, onde caso haja, ele sorteará uma imagem e enviará para o cliente dentro do gênero buscado, todavia, caso o gênero não exista no JSON, uma mensagem de erro será enviada.
 --------------------------------------------------------------
 
 6. Iniciando o Servidor:
+
 ➡️ Aqui será iniciado o servidor express, também enviando uma mensagem para o console.
 
 ================================================================
