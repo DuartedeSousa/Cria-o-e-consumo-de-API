@@ -3,10 +3,15 @@
 🟢 Este projeto apresenta uma conexão entre back-end e front-end a partir de duas máquinas, acessando uma API local de jogos dos gêneros:
 
 ➡️ Ação 🧨;
+
 ➡️ Terror 👻;
+
 ➡️ Survival 🪓;
+
 ➡️ Multiplayer 🤜🤛;
+
 ➡️ Indie 🗻;
+
 ➡️ RPG ⚔️.
 
 ================================================================
@@ -16,6 +21,7 @@
 🟢 Durante a criação do projeto, houve a necessidade da instalação de alguns pacotes de dados para a funcionalidade do JSON sendo eles:
 
 ➡️ npm install;
+
 ➡️ npm install cors express.
 
 🟢 O que permitiu que o projeto utilizasse das funcionalidades do cors e express, que foram transferidos para variáveis (ademais outras constantes).
@@ -40,10 +46,15 @@
 🟢 Dentre os gêneros válidos, o usuário pode utilizar:
 
 ➡️ acao;
+
 ➡️ terror;
+
 ➡️ survival;
+
 ➡️ multiplayer;
+
 ➡️ indie;
+
 ➡️ rpg.
 
 # Nota:
@@ -85,13 +96,18 @@
 
 1. Requisições: O servidor cria variáveis constantes que recebem os requerimentos que foram necessários para a produção do mesmo:
 ➡️ express = recebe o requerimento express (adquirido com o npm install cors express);
+
 ➡️ cors = recebe o requerimento cors (adquirido com o npm install cors express);
+
 ➡️ fs = recebe o requerimento fs (importa o módulo de arquivos do Node);
+
 ➡️ path = recebe o requerimento path (caminho);
+
 ➡️ jogos = recebe o requerimento do caminho até o arquivo JSON ("./data/generos.json").
 
 2. Outras variáveis:
 ➡️ app = recebe a função express();
+
 ➡️ PORT = recebe a porta desejada para a utilização do site enquanto "estiver no ar".
 
 # Nota:
